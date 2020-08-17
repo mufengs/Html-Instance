@@ -1,0 +1,139 @@
+body{background:url(../image/1.png) repeat-x;}
+.g{width:940px;
+margin:0 auto;}
+.clearfix:after{content:"";
+display:table;
+clear:both;}
+
+/*header部分*/
+.header{padding-top:37px;}
+.nav ul{float:right;}
+.nav ul li{float:left;
+list-style:none;
+margin-top:22px;
+margin-right:19px;
+padding-left:9px;
+padding-bottom:11px;
+border-left:1px  #d6d6d6 dotted;}
+.nav li a{font:Bold 14px Georgia;
+color:#666666;
+text-decoration:none;}
+.nav li p{font: 11px Tahoma;
+color:#cacaca;}
+.logo{margin-left:15px;
+margin-bottom:46px;}
+
+/*banner部分*/
+.banner{background:url(../image/shadow.png)  no-repeat;
+position:relative;}
+.banner h3{background:url(../image/white.png) no-repeat bottom center;
+text-align:center;
+font:Bold 24px Georgia;
+padding-top:14px;
+padding-bottom:15px;}
+.makepoint a{float:left;
+width:17px;
+height:17px;
+background:url(../image/runpoint.png) no-repeat;
+margin-left:4px;}
+.makepoint{position:absolute;
+top:313px;
+left:15px;}
+.makepoint .activepoint , .makepoint a:hover{background:url(../image/activepoint.png) no-repeat;}
+
+/*content部分*/
+.pl,.cs,.uc,.so, .co , .nu{width:300px;
+float:left;
+margin-top:38px;}
+.cs , .co{margin-left:20px;
+margin-right:20px;}
+.content h3{font:21px Georgia;
+color:#11719e;}
+.content .p1{font:12px Myriad Pro;
+color:#8c8c8c;
+margin-bottom:16px;}
+.content .boy, .content .girl, .content .qiu{width:299px;
+height:186px;
+background:url(../image/boy.png) no-repeat;
+text-align:center;
+padding-top:6px;}
+.content .p2{font:13px Myriad Pro;
+color:#3e3e3e;
+margin-top:16px;
+margin-left:5px;
+margin-bottom:20px;}
+.content .lm{width:163px;
+height:40px;
+background:url(../image/anniu.png) no-repeat;
+border:none;
+font:12px/40px  Myriad Pro;
+color:#016999;
+text-align:left;
+text-indent:1em;
+margin-left:4px;}
+.content{background:url(../image/white.png) no-repeat  bottom center;
+padding-bottom:35px;}
+
+/*contact部分*/
+.contact .sc , .contact .con , .contact .up{font:18px Georgia;
+color:#444444;
+border-bottom:1px #d3d3d3 dashed;
+padding-bottom:9px;}
+.so .at , .so .atv{font:12px Myriad Pro;
+color:#444444;}
+.so .at{margin-top:10px;
+margin-bottom:3px;}
+.so .atv{margin-top:9px;
+margin-bottom:10px;}
+.new{margin-top:37px;
+font:18px Myriad Pro;
+color:#444444;}
+.co .con{margin-bottom:15px;}
+.so .text ,.co .text{width:268px;
+height:33px;
+border:none;
+background:url(../image/from1.png) no-repeat;
+font:10px Verdana;
+color:#d4d4d4;
+padding-left:14px;
+padding-right:14px;
+line-height:33px;}
+.co .text{margin-bottom:16px;}
+.co .message{width:268px;
+height:106px;
+border:none;
+overflow:auto;
+resize:none;
+background:url(../image/from2.png) no-repeat;
+font:10px Verdana;
+color:#d4d4d4;
+padding:14px;}
+.contact .btn{width:163px;
+height:32px;
+background:url(../image/btn.png) no-repeat;
+border:none;
+font:13px/32px Georgia;
+color:#f6f9fa;
+text-align:left;
+text-indent:1em;
+margin-top:11px;
+margin-bottom:23px;}
+.nu p{font:11px Myriad Pro;
+color:#444444;}
+.firefox , .star , .cyer{float:left;
+margin-right:8px;}
+.lm , .sed , .am{border-bottom:1px #d3d3d3 dashed;
+margin-top:14px;
+padding-bottom:9px;}
+
+/*footer部分*/
+.foot{height:156px;
+background-color:#333333;
+border-top:10px #4c4c4c solid;
+padding-top:17px;}
+.foot a{text-decoration:none;}
+.foot p , .foot a{font:11px/20px  Myriad Pro;
+color:#999999;}
+.foot .copy{float:right;
+padding-right:12px;}
+
