@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>changeable menu</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	  *{
+	   margin:0;
+	   padding:0;}
+	  #menu{
+	   width:100px;
+	   margin:150px auto;}
+	  .point1{
+	   width:100px;
+	   background-color:#e1ffc2;
+	   border-bottom:2px solid white;}
+	  .pointTit{
+	   height:25px;
+	   background-color:#89c9b8;
+	   }
+	  .point{
+	   height:25px;
+	   overflow:hidden;}
+	</style>
+	<script type="text/javascript" src="tool1.js"></script>
+	<script>
+	  window.onload=function(){
+	  var pointTit=document.querySelectorAll(".pointTit");
+	  var openDiv=pointTit[0].parentNode;
+	  for (i=0;i<pointTit.length;i++){
+	  pointTit[i].onclick=function(){
+	  var parentDiv=this.parentNode;
+	  toggleClass(parentDiv,"point")
+	  if(openDiv!=parentDiv&&!hasClass(openDiv,"point")){
+	  addClass(openDiv,"point");
+	  }
+	  openDiv=parentDiv;
+	  }
+	  }
+	  }
+	</script>
+  </head>
+  <body>
+    <div id="menu">
+	  <div class="point1">
+	    <p class="pointTit">Home</p>
+		<p>cookie</p>
+		<p>cookie</p>
+		<p>cookie</p>
+		<p>cookie</p>
+	  </div>
+	  <div class="point1">
+	    <p class="pointTit">Drinks</p>
+		<p>tea</p>
+		<p>tea</p>
+		<p>tea</p>
+	  </div>
+	  <div class="point1">
+	    <p class="pointTit">Clean</p>
+		<p>wash</p>
+		<p>wash</p>
+		<p>wash</p>
+	  </div>
+	  <div class="point1">
+	    <p class="pointTit">Sport</p>
+		<p>runaway</p>
+		<p>runaway</p>
+		<p>runaway</p>
+	  </div>
+	  <div class="point1">
+	    <p class="pointTit">Digtal</p>
+		<p>watch</p>
+		<p>watch</p>
+		<p>watch</p>
+		<p>watch</p>
+	  </div>
+	</div>
+  </body>
+</html>
